@@ -56,7 +56,7 @@ const i18n_english = {
             description:"",
             bullets:[
               {type:"check", text:"Feedback Comments on Reports"},
-              {type:"check", text:"Announcments from Admin"},
+              {type:"check", text:"Announcements from Admin"},
               {type:"check", text:"Real time Chat"},
               {type:"check", text:"Notification Center"}
             ]
