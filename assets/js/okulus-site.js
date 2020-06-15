@@ -1,11 +1,3 @@
-/* CONSTANTS */
-const values = {
-  paths:{
-    home:"/home", profile:"/profile", login:"/login", resume:"/resume"
-  }
-
-};
-
 const i18n_english = {
     page:{ title:"Okulus Project",
           description:"Your Church's new digital experience"},
@@ -190,7 +182,9 @@ const i18n_english = {
       email:"gil.franfer@gmail.com", emailUs:"Email Us",
       form:{
         nameLbl:"Your Name", emailLbl:"Your Email", subjectLbl:"Subject", messageLbl:"Type your Message",
-        sendBtnLbl:"Send Message", loadingLbl:"Loading", sentLbl:"Your message has been sent. Thank you!"
+        sendBtnLbl:"Send Message", sendingLbl:"Sending Message", sentLbl:"Your message has been sent. Thank you!",
+        nameInvalid:"Please enter at least 3 chars", emailInvalid:"Please enter a valid email",
+        subjectInvalid:"Please enter at least 3 chars of subject", messageInvalid:"Please write something for us"
       }
     }
 };
@@ -200,4 +194,119 @@ let app = angular.module('OkulusSite',[]);
 
 app.run(function($rootScope){
 	$rootScope.i18n = i18n_english;
+});
+
+/* EmailJS */
+var myform = $("form#contactForm");
+myform.submit(function(event){
+	event.preventDefault();
+  //Form validations
+  var f = $(this).find('.form-group'),
+    ferror = false,
+    emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+
+  f.children('input').each(function() { // run all inputs
+
+    var i = $(this); // current input
+    var rule = i.attr('data-rule');
+
+    if (rule !== undefined) {
+      var ierror = false; // error flag for current input
+      var pos = rule.indexOf(':', 0);
+      if (pos >= 0) {
+        var exp = rule.substr(pos + 1, rule.length);
+        rule = rule.substr(0, pos);
+      } else {
+        rule = rule.substr(pos + 1, rule.length);
+      }
+
+      switch (rule) {
+        case 'required':
+          if (i.val() === '') {
+            ferror = ierror = true;
+          }
+          break;
+
+        case 'minlen':
+          if (i.val().length < parseInt(exp)) {
+            ferror = ierror = true;
+          }
+          break;
+
+        case 'email':
+          if (!emailExp.test(i.val())) {
+            ferror = ierror = true;
+          }
+          break;
+
+        case 'checked':
+          if (! i.is(':checked')) {
+            ferror = ierror = true;
+          }
+          break;
+
+        case 'regexp':
+          exp = new RegExp(exp);
+          if (!exp.test(i.val())) {
+            ferror = ierror = true;
+          }
+          break;
+      }
+      i.next('.validate').html((ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
+    }
+  });
+  f.children('textarea').each(function() { // run all inputs
+
+    var i = $(this); // current input
+    var rule = i.attr('data-rule');
+
+    if (rule !== undefined) {
+      var ierror = false; // error flag for current input
+      var pos = rule.indexOf(':', 0);
+      if (pos >= 0) {
+        var exp = rule.substr(pos + 1, rule.length);
+        rule = rule.substr(0, pos);
+      } else {
+        rule = rule.substr(pos + 1, rule.length);
+      }
+
+      switch (rule) {
+        case 'required':
+          if (i.val() === '') {
+            ferror = ierror = true;
+          }
+          break;
+
+        case 'minlen':
+          if (i.val().length < parseInt(exp)) {
+            ferror = ierror = true;
+          }
+          break;
+      }
+      i.next('.validate').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
+    }
+  });
+  if (ferror) return false;
+
+  //Proceed to send email
+  var service_id = "gmail";
+  var template_id = "contact_us";
+
+  myform.find("#sendingMessageAlert").show();
+  myform.find("#messageSentAlert").hide();
+  myform.find("#errorMessageAlert").hide();
+  emailjs.sendForm(service_id,template_id,myform[0])
+  	.then(function(){
+    	// alert("Sent!");
+          myform.find("#sendingMessageAlert").hide();
+          myform.find("#messageSentAlert").show();
+  //      myform.find("button").text("Send");
+  //   }, function(err) {
+          myform.find("#sendingMessageAlert").hide();
+          myform.find("#messageSentAlert").text("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+          myform.find("#messageSentAlert").show();
+       console.err("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+       myform.find("button").text("Send");
+    });
+  return false;
 });
