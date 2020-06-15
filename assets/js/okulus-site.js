@@ -102,15 +102,37 @@ const i18n_english = {
       ]
     },
     portfolio:{
-      title:"Screen shots",
+      title:"Okulus Images",
       description:"",
+      filters:[
+        {name:"*", active:"filter-active", title:"All"},
+        {name:".filter-general", active:"", title:"General"},
+        {name:".filter-reports", active:"", title:"Reports"},
+        {name:".filter-dash", active:"", title:"Dashboard"},
+        {name:".filter-admin", active:"", title:"Admin"}
+      ],
       items:[
-        {filter:"filter-app", title:"Image 1", description:"Image Number One", image:"assets/img/portfolio/portfolio-1.jpg"},
-        {filter:"filter-app", title:"Image 2", description:"Image Number Two", image:"assets/img/portfolio/portfolio-2.jpg"},
-        {filter:"filter-app", title:"Image 3", description:"Image Number 3", image:"assets/img/portfolio/portfolio-3.jpg"},
-        {filter:"filter-app", title:"Image 4", description:"Image Number 4", image:"assets/img/portfolio/portfolio-4.jpg"},
-        {filter:"filter-app", title:"Image 5", description:"Image Number 5", image:"assets/img/portfolio/portfolio-5.jpg"},
-        {filter:"filter-app", title:"Image 6", description:"Image Number 6", image:"assets/img/portfolio/portfolio-6.jpg"}
+        {filter:"filter-general", title:"Home", description:"", image:"assets/img/portfolio/OkulusHome.png"},
+        {filter:"filter-general", title:"Summary", description:"", image:"assets/img/portfolio/OkulusSummary.png"},
+        {filter:"filter-general", title:"Chats", description:"", image:"assets/img/portfolio/OkulusChatCenter.png"},
+        {filter:"filter-general", title:"Notifications", description:"", image:"assets/img/portfolio/OkulusNotifications.png"},
+        {filter:"filter-general", title:"Configurations", description:"", image:"assets/img/portfolio/OkulusConfigs.png"},
+
+        {filter:"filter-reports", title:"New Report", description:"", image:"assets/img/portfolio/ReportNew.png"},
+        {filter:"filter-reports", title:"Attendance", description:"", image:"assets/img/portfolio/ReportAttendance.png"},
+        {filter:"filter-reports", title:"Add Multiple", description:"", image:"assets/img/portfolio/ReportMultipleAdd.png"},
+        {filter:"filter-reports", title:"Feedback", description:"", image:"assets/img/portfolio/ReportFeedback.png"},
+
+        {filter:"filter-dash", title:"Search Reports", description:"", image:"assets/img/portfolio/DashboardSearch.png"},
+        {filter:"filter-dash", title:"Reports", description:"", image:"assets/img/portfolio/DashboardReports.png"},
+        {filter:"filter-dash", title:"Reunions", description:"", image:"assets/img/portfolio/DashboardReunions.png"},
+        {filter:"filter-dash", title:"Attendance", description:"", image:"assets/img/portfolio/DashboardAttendance.png"},
+
+        {filter:"filter-admin", title:"Groups", description:"", image:"assets/img/portfolio/AdminGroups.png"},
+        {filter:"filter-admin", title:"Members", description:"", image:"assets/img/portfolio/AdminMembers.png"},
+        {filter:"filter-admin", title:"Reports", description:"", image:"assets/img/portfolio/AdminReports.png"},
+        {filter:"filter-admin", title:"Users", description:"", image:"assets/img/portfolio/AdminUsers.png"},
+        {filter:"filter-admin", title:"Weeks", description:"", image:"assets/img/portfolio/AdminWeeks.png"}
       ]
     },
     team:{

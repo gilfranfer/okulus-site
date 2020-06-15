@@ -52,11 +52,11 @@
           <li><a href="#about">{{i18n.menu.about}}</a></li>
           <li><a href="#features">{{i18n.menu.features}}</a></li>
           <li><a href="#team">{{i18n.menu.team}}</a></li>
+          <li><a href="#portfolio">{{i18n.menu.portfolio}}</a></li>
           <li><a href="#pricing">{{i18n.menu.pricing}}</a></li>
           <!-- <li><a href="#contact">{{i18n.menu.contact}}</a></li> -->
           <li class="get-started"><a href="#contact">{{i18n.menu.contact}}</a></li>
           <!-- <li class="get-started"><a href="#about">{{i18n.menu.started}}</a></li> -->
-          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -279,20 +279,19 @@
           <p data-aos="fade-in">{{i18n.portfolio.description}}</p>
         </div>
 
-        <!-- <div class="row">
+        <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">{{i18n.portfolio.filterAll}}</li>
-              <li data-filter=".filter-app">{{i18n.portfolio.filter1}}</li>
-              <li data-filter=".filter-card">{{i18n.portfolio.filter2}}</li>
-              <li data-filter=".filter-web">{{i18n.portfolio.filter3}}</li>
+              <li ng-repeat="filter in i18n.portfolio.filters" data-filter="{{filter.name}}" class="{{filter.active}}">
+                {{filter.title}}
+              </li>
             </ul>
           </div>
-        </div> -->
+        </div>
 
         <div class="row portfolio-container" data-aos="fade-up">
 
-          <div ng-repeat="item in i18n.portfolio.items" class="col-lg-4 col-md-6 portfolio-item {{item.filter}}">
+          <div ng-repeat="item in i18n.portfolio.items" class="col-4 col-lg-3 portfolio-item {{item.filter}}">
             <div class="portfolio-wrap">
               <img ng-src="{{item.image}}" class="img-fluid" alt="">
               <div class="portfolio-links">
