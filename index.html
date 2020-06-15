@@ -435,7 +435,9 @@
           <div class="col-12 col-md-6" ng-repeat="member in i18n.team.members">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="pic"><img ng-src="{{member.image}}" alt=""></div>
-              <h4>{{member.name}}</h4>
+              <h4><a ng-show="member.resume" ng-href="{{member.resume}}" target="_blank">
+                {{member.name}}
+              </a></h4>
               <span>{{member.role}}</span>
               <div class="social">
                 <a ng-show="member.twitter" ng-href="{{member.twitter}}" target="_blank"><i class="icofont-twitter"></i></a>
