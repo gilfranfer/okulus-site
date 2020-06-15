@@ -165,6 +165,7 @@ const i18n_english = {
       locations:[
         {address:"San Antonio Texas, USA"},{address:"Xalapa Veracruz, MEX"}
       ],
+      email:"gil.franfer@gmail.com", emailUs:"Email Us",
       form:{
         nameLbl:"Your Name", emailLbl:"Your Email", subjectLbl:"Subject", messageLbl:"Type your Message",
         sendBtnLbl:"Send Message", loadingLbl:"Loading", sentLbl:"Your message has been sent. Thank you!"
