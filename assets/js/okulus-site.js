@@ -148,7 +148,7 @@ const i18n_english = {
             image:"assets/img/team/team-2.jpg",
             twitter:"https://twitter.com/lezzlie20", facebook:"",
             instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
-            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" }
+            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" }
       ]
     },
     pricing:{

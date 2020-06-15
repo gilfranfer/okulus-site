@@ -355,17 +355,17 @@
         <div class="row">
           <div class="col-12 col-md-6" ng-repeat="member in i18n.team.members">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="pic"><img ng-src="{{member.image}}" alt=""></div>
-              <h4><a ng-show="member.resume" ng-href="{{member.resume}}" target="_blank">
-                {{member.name}}
-              </a></h4>
+              <div class="pic"><a ng-show="member.resume" ng-href="{{member.resume}}" target="_blank">
+                <img ng-src="{{member.image}}" alt="">
+              </a></div>
+              <h4>{{member.name}}</h4>
               <span>{{member.role}}</span>
               <div class="social">
+                <a ng-show="member.resume" ng-href="{{member.resume}}" target="_blank"><i class="icofont-search-user"></i></a>
                 <a ng-show="member.twitter" ng-href="{{member.twitter}}" target="_blank"><i class="icofont-twitter"></i></a>
                 <a ng-show="member.facebook" ng-href="{{member.facebook}}" target="_blank"><i class="icofont-facebook"></i></a>
                 <a ng-show="member.instagram" ng-href="{{member.instagram}}" target="_blank"><i class="icofont-instagram"></i></a>
                 <a ng-show="member.linkedin" ng-href="{{member.linkedin}}" target="_blank"><i class="icofont-linkedin"></i></a>
-                <a ng-show="member.resume" ng-href="{{member.resume}}" target="_blank"><i class="icofont-search-user"></i></a>
               </div>
             </div>
           </div>
