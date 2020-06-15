@@ -103,7 +103,7 @@ const i18n_english = {
     },
     team:{
       title:"Team",
-      description:"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+      description:"",
       members:[
         {name:"Fernando Gil", role:"Chief Executive Officer",
             image:"assets/img/team/team-1.jpg",
