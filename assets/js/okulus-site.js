@@ -41,6 +41,66 @@ const i18n_english = {
         }
       ]
     },
+    features:{
+      title:"Features",
+      description:"Okulus is a web based application. It provides different features built around requirements for Churches that want to keep a record of their Group's reunion. The information comes from reports created by Group leaders, and it is used to monitor the performance and growth of each group and its members. All the collected data can be displayed in real=time dashboards.",
+      items:[
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-1",fade:"fade-right", src:"assets/img/features/features-1.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-2",fade:"fade-left",
+            title:"Keep an Open Communication",
+            subtitle:"Make use of all Okulu's Communication tools",
+            description:"",
+            bullets:[
+              {type:"check", text:"Feedback Comments on Reports"},
+              {type:"check", text:"Announcments from Admin"},
+              {type:"check", text:"Real time Chat"},
+              {type:"check", text:"Notification Center"}
+            ]
+          }
+        },
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-2",fade:"fade-left", src:"assets/img/features/features-2.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
+            title:"Real Time Dashboard", subtitle:"Keep track of your Group's informatio",
+            description: "Okulus has a real time dashboard accecible for Admins, where they can see all the information collected with the created reports. Taking advantage of charts and table, you can easily track the Groups' perfomance", bullets:""
+          }
+        },
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-1",fade:"fade-right", src:"assets/img/features/features-3.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-2",fade:"fade-left",
+            title:"New web Technology", subtitle:"",
+            description:"We have used edge technologies to build Okulus, so you can enjoy some of the coolest solutions.",
+            bullets:[
+              {type:"check", text:"HTML5"},
+              {type:"check", text:"Bootstrap"},
+              {type:"check", text:"Angular"},
+              {type:"check", text:"Firebase"}
+            ]
+          }
+        },
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-2",fade:"fade-left", src:"assets/img/features/features-4.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
+            title:"Configurable", subtitle:"Make it yours.",
+            description:"There are many settings you can adjust, to make Okulus more like you want it to be.",
+            bullets:""
+          }
+        }
+      ]
+    },
     team:{
       title:"Team",
       description:"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
