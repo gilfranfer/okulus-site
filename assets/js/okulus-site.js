@@ -9,7 +9,7 @@ const values = {
 const i18n_english = {
     page:{ title:"Okulus Project",
           description:"Your Church's new digital experience"},
-    menu:{ app:"Okulus", home:"Home", about:"About Us" ,
+    menu:{ app:"Okulus", home:"Home", about:"Get Started",
           features:"Features", team:"Team", pricing:"Pricing",
           contact:"Contact Us", started:"Get Started!"},
     hero:{ title:"Your Church's new digital experience",
@@ -99,6 +99,18 @@ const i18n_english = {
             bullets:""
           }
         }
+      ]
+    },
+    portfolio:{
+      title:"Screen shots",
+      description:"",
+      items:[
+        {filter:"filter-app", title:"Image 1", description:"Image Number One", image:"assets/img/portfolio/portfolio-1.jpg"},
+        {filter:"filter-app", title:"Image 2", description:"Image Number Two", image:"assets/img/portfolio/portfolio-2.jpg"},
+        {filter:"filter-app", title:"Image 3", description:"Image Number 3", image:"assets/img/portfolio/portfolio-3.jpg"},
+        {filter:"filter-app", title:"Image 4", description:"Image Number 4", image:"assets/img/portfolio/portfolio-4.jpg"},
+        {filter:"filter-app", title:"Image 5", description:"Image Number 5", image:"assets/img/portfolio/portfolio-5.jpg"},
+        {filter:"filter-app", title:"Image 6", description:"Image Number 6", image:"assets/img/portfolio/portfolio-6.jpg"}
       ]
     },
     team:{
