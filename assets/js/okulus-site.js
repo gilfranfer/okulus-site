@@ -117,6 +117,35 @@ const i18n_english = {
             resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" }
       ]
     },
+    pricing:{
+      title:"Pricing", description:"",
+      plans:[
+        {name:"Free", price:"$0", period:"per month", featured:"", fade:"zoom-in",
+          bullets:[
+            {type:"bx-check", text:"Create up to 20 Groups", included:true},
+            {type:"bx-check", text:"Add up to 250 Members", included:true},
+            {type:"bx-check", text:"Set up to 20 Users", included:true},
+            {type:"bx-x", text:"Support", included:false}
+          ]
+        },
+        {name:"Limited", price:"$15", period:"per month", featured:"featured", fade:"zoom-in",
+          bullets:[
+            {type:"bx-check", text:"Create up to 100 Groups", included:true},
+            {type:"bx-check", text:"Add up to 1500 Members", included:true},
+            {type:"bx-check", text:"Set up to 100 Users", included:true},
+            {type:"bx-check", text:"Basic Support", included:true}
+          ]
+        },
+        {name:"Unlimited", price:"$45", period:"per month", featured:"", fade:"zoom-in",
+          bullets:[
+            {type:"bx-check", text:"Create unlimited Groups", included:true},
+            {type:"bx-check", text:"Add unlimited Members", included:true},
+            {type:"bx-check", text:"Set up to 200 Users", included:true},
+            {type:"bx-check", text:"24/7 Support", included:true}
+          ]
+        }
+      ]
+    },
     contact:{
       title:"Contact",
       description:"",
