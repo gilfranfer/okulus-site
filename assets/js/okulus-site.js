@@ -8,7 +8,7 @@ const values = {
 
 const i18n_english = {
     page:{ title:"Okulus Project",
-          description:""},
+          description:"Your Church's new digital experience"},
     menu:{ app:"Okulus", home:"Home", about:"About Us" ,
           features:"Features", team:"Team", pricing:"Pricing",
           contact:"Contact Us", started:"Get Started!"},
