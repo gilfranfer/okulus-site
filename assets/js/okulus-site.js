@@ -21,7 +21,7 @@ const i18n_english = {
       items:[
         {
           title:"Set your Groups",
-          description:"Create all the groups you want, assignnig contact information, and other details of your interest.",
+          description:"Create all the groups you want, assigning contact information, and other details of your interest.",
           icon:"bx-home"
         },
         {
@@ -31,19 +31,19 @@ const i18n_english = {
         },
         {
           title:"Create the Reports",
-          description:"For every reunion, you can create a report that will feed a dashboar to track the group growth and performance.",
+          description:"For every reunion, your users can create reports that will feed a real time dashboard to track the group growth and performance.",
           icon:"bx-receipt"
         },
         {
           title:"Limit the Access",
-          description:"Your data is secure! Provide access only to the people you want to.",
+          description:"Your data is secure! Provide access only to the people you want to, and limit which groups they can see.",
           icon:"bx-shield"
         }
       ]
     },
     features:{
       title:"Features",
-      description:"Okulus is a web based application. It provides different features built around requirements for Churches that want to keep a record of their Group's reunion. The information comes from reports created by Group leaders, and it is used to monitor the performance and growth of each group and its members. All the collected data can be displayed in real=time dashboards.",
+      description:"Okulus is a web based application, that provides different features built around requirements for Churches that want to keep a record of their Group's reunions. The information comes from reports created by Group leaders, and it is used to monitor the performance and growth of each group and its members. All the collected data can be displayed in real=time dashboards.",
       items:[
         {
           image:{
@@ -68,8 +68,8 @@ const i18n_english = {
           },
           text:{
             orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
-            title:"Real Time Dashboard", subtitle:"Keep track of your Group's informatio",
-            description: "Okulus has a real time dashboard accecible for Admins, where they can see all the information collected with the created reports. Taking advantage of charts and table, you can easily track the Groups' perfomance", bullets:""
+            title:"Real Time Dashboard", subtitle:"Keep track of your Group's information",
+            description: "Okulus has a real time dashboard available for Users and Admins, where they can see all the information collected with the created reports. Taking advantage of charts and tables, you can easily track the Groups' perfomance during specific time frame.", bullets:""
           }
         },
         {
@@ -78,7 +78,7 @@ const i18n_english = {
           },
           text:{
             orderSm:"order-2",orderMd:"order-md-2",fade:"fade-left",
-            title:"New web Technology", subtitle:"",
+            title:"New Web Technology", subtitle:"",
             description:"We have used edge technologies to build Okulus, so you can enjoy some of the coolest solutions.",
             bullets:[
               {type:"check", text:"HTML5"},
@@ -95,7 +95,7 @@ const i18n_english = {
           text:{
             orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
             title:"Configurable", subtitle:"Make it yours.",
-            description:"There are many settings you can adjust, to make Okulus more like you want it to be.",
+            description:"There are many settings you can adjust, to make Okulus more like you want it to be. Feel free to contact us to request more features!",
             bullets:""
           }
         }
