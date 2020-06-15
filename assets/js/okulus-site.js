@@ -11,7 +11,7 @@ const i18n_english = {
           description:"Your Church's new digital experience"},
     menu:{ app:"Okulus", home:"Home", about:"Get Started",
           features:"Features", team:"Team", pricing:"Pricing",
-          contact:"Contact Us", started:"Get Started!"},
+          portfolio:"Images", contact:"Contact Us", started:"Get Started!"},
     hero:{ title:"Your Church's new digital experience",
           description:"Okulus provides you a way to keep an eye on your Church Group's reunions.",
         },
