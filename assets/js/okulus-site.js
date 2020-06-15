@@ -88,7 +88,11 @@ const i18n_english = {
             orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
             title:"Configurable", subtitle:"Make it yours.",
             description:"There are many settings you can adjust, to make Okulus more like you want it to be. Feel free to contact us to request more features!",
-            bullets:""
+            bullets:[
+              {type:"check", text:"Interface Language in English/Spanish"},
+              {type:"check", text:"Chart Colors Configurable"},
+              {type:"check", text:"Select your prefered Date Format"},
+            ]
           }
         }
       ]
