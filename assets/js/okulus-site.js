@@ -116,6 +116,18 @@ const i18n_english = {
             instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
             resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" }
       ]
+    },
+    contact:{
+      title:"Contact",
+      description:"",
+      locationBox: {title:"Location", fade:"fade-up", image:"bx-map", colSize:"col-6"},
+      locations:[
+        {address:"San Antonio Texas, USA"},{address:"Xalapa Veracruz, MEX"}
+      ],
+      form:{
+        nameLbl:"Your Name", emailLbl:"Your Email", subjectLbl:"Subject", messageLbl:"Type your Message",
+        sendBtnLbl:"Send Message", loadingLbl:"Loading", sentLbl:"Your message has been sent. Thank you!"
+      }
     }
 };
 
