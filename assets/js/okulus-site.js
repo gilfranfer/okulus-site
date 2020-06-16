@@ -152,26 +152,26 @@ const i18n_english = {
       plans:[
         {name:"Free", price:"$0", period:"dlls per month", featured:"", fade:"zoom-in",
           bullets:[
-            {type:"bx-check", text:"Create up to 20 Groups", included:true},
-            {type:"bx-check", text:"Add up to 250 Members", included:true},
-            {type:"bx-check", text:"Set up to 20 Users", included:true},
+            {type:"bx-check", text:"Create up to 10 Groups", included:true},
+            {type:"bx-check", text:"Add up to 150 Members", included:true},
+            {type:"bx-check", text:"Set up to 15 Users", included:true},
             {type:"bx-x", text:"Support", included:false}
           ]
         },
-        {name:"Limited", price:"$15", period:"dlls per month", featured:"featured", fade:"zoom-in",
+        {name:"Basic", price:"$25", period:"dlls per month", featured:"featured", fade:"zoom-in",
           bullets:[
             {type:"bx-check", text:"Create up to 100 Groups", included:true},
             {type:"bx-check", text:"Add up to 1500 Members", included:true},
             {type:"bx-check", text:"Set up to 100 Users", included:true},
-            {type:"bx-check", text:"Basic Support", included:true}
+            {type:"bx-x", text:"Support", included:false}
           ]
         },
-        {name:"Unlimited", price:"$45", period:"dlls per month", featured:"", fade:"zoom-in",
+        {name:"Premium", price:"$45", period:"dlls per month", featured:"", fade:"zoom-in",
           bullets:[
-            {type:"bx-check", text:"Create unlimited Groups", included:true},
-            {type:"bx-check", text:"Add unlimited Members", included:true},
+            {type:"bx-check", text:"Create Unlimited Groups", included:true},
+            {type:"bx-check", text:"Add Unlimited Members", included:true},
             {type:"bx-check", text:"Set up to 200 Users", included:true},
-            {type:"bx-check", text:"Support", included:false}
+            {type:"bx-check", text:"Support", included:true}
           ]
         }
       ]
@@ -346,24 +346,24 @@ const i18n_spanish = {
       plans:[
         {name:"Gratis", price:"$0", period:"dlls al mes", featured:"", fade:"zoom-in",
           bullets:[
-            {type:"bx-check", text:"Crea hasta 20 Grupos", included:true},
-            {type:"bx-check", text:"Agrega hasta 250 Miembros", included:true},
-            {type:"bx-check", text:"Asigna hasta 20 Usuarios", included:true},
+            {type:"bx-check", text:"Crea hasta 10 Grupos", included:true},
+            {type:"bx-check", text:"Agrega hasta 150 Miembros", included:true},
+            {type:"bx-check", text:"Asigna hasta 15 Usuarios", included:true},
             {type:"bx-x", text:"Soporte", included:false}
           ]
         },
-        {name:"Limitado", price:"$15", period:"dlls al mes", featured:"featured", fade:"zoom-in",
+        {name:"Básico", price:"$25", period:"dlls al mes", featured:"featured", fade:"zoom-in",
           bullets:[
             {type:"bx-check", text:"Crea hasta 100 Grupos", included:true},
             {type:"bx-check", text:"Agrega hasta 1500 Miembros", included:true},
             {type:"bx-check", text:"Asigna hasta 100 Usuarios", included:true},
-            {type:"bx-check", text:"Soporte", included:false}
+            {type:"bx-x", text:"Soporte", included:false}
           ]
         },
-        {name:"Ilimimtado", price:"$45", period:"dlls al mes", featured:"", fade:"zoom-in",
+        {name:"Premium", price:"$45", period:"dlls al mes", featured:"", fade:"zoom-in",
           bullets:[
-            {type:"bx-check", text:"Crea unlimited Grupos", included:true},
-            {type:"bx-check", text:"Agrega unlimited Miembros", included:true},
+            {type:"bx-check", text:"Crea Grupos ilimitados", included:true},
+            {type:"bx-check", text:"Agrega Miembros ilimitados", included:true},
             {type:"bx-check", text:"Asigna hasta 200 Usuarios", included:true},
             {type:"bx-check", text:"Soporte", included:true}
           ]
