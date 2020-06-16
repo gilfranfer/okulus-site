@@ -91,7 +91,7 @@ const i18n_english = {
             bullets:[
               {type:"check", text:"Interface Language in English/Spanish"},
               {type:"check", text:"Chart Colors Configurable"},
-              {type:"check", text:"Select your prefered Date Format"},
+              {type:"check", text:"Select your preferred Date Format"},
             ]
           }
         }
