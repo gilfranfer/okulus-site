@@ -150,7 +150,7 @@ const i18n_english = {
     pricing:{
       title:"Pricing", description:"",
       plans:[
-        {name:"Free", price:"$0", period:"per month", featured:"", fade:"zoom-in",
+        {name:"Free", price:"$0", period:"dlls per month", featured:"", fade:"zoom-in",
           bullets:[
             {type:"bx-check", text:"Create up to 20 Groups", included:true},
             {type:"bx-check", text:"Add up to 250 Members", included:true},
@@ -158,7 +158,7 @@ const i18n_english = {
             {type:"bx-x", text:"Support", included:false}
           ]
         },
-        {name:"Limited", price:"$15", period:"per month", featured:"featured", fade:"zoom-in",
+        {name:"Limited", price:"$15", period:"dlls per month", featured:"featured", fade:"zoom-in",
           bullets:[
             {type:"bx-check", text:"Create up to 100 Groups", included:true},
             {type:"bx-check", text:"Add up to 1500 Members", included:true},
@@ -166,12 +166,12 @@ const i18n_english = {
             {type:"bx-check", text:"Basic Support", included:true}
           ]
         },
-        {name:"Unlimited", price:"$45", period:"per month", featured:"", fade:"zoom-in",
+        {name:"Unlimited", price:"$45", period:"dlls per month", featured:"", fade:"zoom-in",
           bullets:[
             {type:"bx-check", text:"Create unlimited Groups", included:true},
             {type:"bx-check", text:"Add unlimited Members", included:true},
             {type:"bx-check", text:"Set up to 200 Users", included:true},
-            {type:"bx-check", text:"24/7 Support", included:true}
+            {type:"bx-check", text:"Support", included:false}
           ]
         }
       ]
@@ -192,12 +192,224 @@ const i18n_english = {
       }
     }
 };
+const i18n_spanish = {
+    page:{ title:"Okulus Project",
+          description:"La nueva experiencia digital de tu Iglesia"},
+    menu:{ app:"Okulus", home:"Inicio", about:"Comenzar",
+          features:"Características", team:"Equipo", pricing:"Precios",
+          portfolio:"Imágenes", contact:"Contáctanos", started:"Comenzar!"},
+    hero:{ title:"La nueva experiencia digital de tu Iglesia",
+          description:"Okulus te provee una manera de mantenerte al tanto de las reuniones de los Grupos de tu Iglesia.",
+        },
+    about:{
+      title:"Una herramienta para manterte informado de lo que sucede ...",
+      description:"Definitivamente deberías mantener un registro de todas las reuniones de los Grupos de tu Iglesia, de modo que puedas monitorear su crecimiento, y estar al tanto del desempeño de cada Grupo.",
+      items:[
+        {
+          title:"Crea tus Grupos",
+          description:"Crea todos los grupos que quieras, establece su información de contacto, define los roles (líder, asistente, anfitrión) y otros detalles.",
+          icon:"bx-home"
+        },
+        {
+          title:"Asigna a los Miembros",
+          description:"Agrega miembros, y asignalos a grupos específicos. Los miembros pueden desempeñar diferentes roles dentro de los grupos.",
+          icon:"bx-group"
+        },
+        {
+          title:"Crea los Reportes",
+          description:"Para cada reunión, tus usuarios pueden crear Reportes, los cuáles proveen la información necesaria para alimentar el 'Dashboard' (tablero) en tiempo real, el cuál te ayudará a monitorear el crecimiento y desempeño de tus grupos.",
+          icon:"bx-receipt"
+        },
+        {
+          title:"Limita el Acceso",
+          description:"Tu información está segura! Prpporciona acceso a la aplicación únicamente a las personas que quieres. También puedes limitar los grupos que cada usuario puede ver.",
+          icon:"bx-shield"
+        }
+      ]
+    },
+    features:{
+      title:"Características",
+      description:"Okulus es una aplicación web, que provee diferentes caracter+isticas construidas al rededor de los requerimientos comunes de Iglesias que quieren mantener un registro de las reuniones de sus Grupos. La información es capturada por medio de reportes creados por los líderes de cada Grupo, y es utilizada para monitorear el desempeño y crecimiento de cada grupo así como de sus miembros (asistentes). Toda la información recolectada puede ser mostrada en 'Dashboars' (tableros) en tiempo real.",
+      items:[
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-1",fade:"fade-right", src:"assets/img/features/features-1.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-2",fade:"fade-left",
+            title:"Mantén una comunicación constante",
+            subtitle:"Haciendo uso de las diferences herramientas de comunicación disponibles:",
+            description:"",
+            bullets:[
+              {type:"check", text:"Comentarios de retroalimentación en los Reportes"},
+              {type:"check", text:"Anuncios del Administrador en la página principal"},
+              {type:"check", text:"Conversaciones en tiempo real"},
+              {type:"check", text:"Centro de Notificaciones"}
+            ]
+          }
+        },
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-2",fade:"fade-left", src:"assets/img/features/features-2.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
+            title:"Dashboard en tiempo real", subtitle:"Mantente al tanto de tus Grupos",
+            description: "Okulus tiene 'Dashboars' (tableros) en tiempo real, disponibles para los usuarios y administradoes, donde pueden revisar toda la informació recolectada por medio de los reportes creados. Haciendo uso de gráficas y tablas, es posbile comprender el crecimiento y desempeño de tus grupos durante periodos específicos de tiempo, muy fácilmente.", bullets:""
+          }
+        },
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-1",fade:"fade-right", src:"assets/img/features/features-3.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-2",fade:"fade-left",
+            title:"Tecnología New Web", subtitle:"",
+            description:"Hemos utilizado diversas tecnologías actuales para construir Okulues, así que puedes estar tranquilo de disfrutar el resultado de soluciones tecnológicas novedosas.",
+            bullets:[
+              {type:"check", text:"HTML5"},
+              {type:"check", text:"Bootstrap"},
+              {type:"check", text:"Angular"},
+              {type:"check", text:"Firebase"}
+            ]
+          }
+        },
+        {
+          image:{
+            orderSm:"order-1",orderMd:"order-md-2",fade:"fade-left", src:"assets/img/features/features-4.svg"
+          },
+          text:{
+            orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
+            title:"Configurable", subtitle:"Hazlo tuyo!",
+            description:"Okulus tiene muchas configuraciones y preferencias que pueden ajustarse en cualquier momento, para que hagas tu experiencia más personal. Siéntete con la libertad de contactarnos para sugerir nuevas funcionalidades!",
+            bullets:[
+              {type:"check", text:"Idioma ajustable: Español/Inglés"},
+              {type:"check", text:"Colores de gráficas Configurables"},
+              {type:"check", text:"Selecciona tu formato de fecha favorito"},
+            ]
+          }
+        }
+      ]
+    },
+    portfolio:{
+      title:"Okulus Imágenes",
+      description:"",
+      filters:[
+        {name:"*", active:"filter-active", title:"Todo"},
+        {name:".filter-general", active:"", title:"General"},
+        {name:".filter-reports", active:"", title:"Reportes"},
+        {name:".filter-dash", active:"", title:"Dashboard"},
+        {name:".filter-admin", active:"", title:"Admin"}
+      ],
+      items:[
+        {filter:"filter-general", title:"Inicio", description:"", image:"assets/img/portfolio/OkulusHome.png"},
+        {filter:"filter-general", title:"Resúmen", description:"", image:"assets/img/portfolio/OkulusSummary.png"},
+        {filter:"filter-general", title:"Conversaciones", description:"", image:"assets/img/portfolio/OkulusChatCenter.png"},
+        {filter:"filter-general", title:"Notificaciones", description:"", image:"assets/img/portfolio/OkulusNotifications.png"},
+        {filter:"filter-general", title:"Configuraciones", description:"", image:"assets/img/portfolio/OkulusConfigs.png"},
+
+        {filter:"filter-reports", title:"Nuevo Reporte", description:"", image:"assets/img/portfolio/ReportNew.png"},
+        {filter:"filter-reports", title:"Asistencia", description:"", image:"assets/img/portfolio/ReportAttendance.png"},
+        {filter:"filter-reports", title:"Agregar Multiple", description:"", image:"assets/img/portfolio/ReportMultipleAdd.png"},
+        {filter:"filter-reports", title:"Comentarios", description:"", image:"assets/img/portfolio/ReportFeedback.png"},
+
+        {filter:"filter-dash", title:"Buscar Reportes", description:"", image:"assets/img/portfolio/DashboardSearch.png"},
+        {filter:"filter-dash", title:"Reportes", description:"", image:"assets/img/portfolio/DashboardReports.png"},
+        {filter:"filter-dash", title:"Reuniones", description:"", image:"assets/img/portfolio/DashboardReunions.png"},
+        {filter:"filter-dash", title:"Asistencia", description:"", image:"assets/img/portfolio/DashboardAttendance.png"},
+
+        {filter:"filter-admin", title:"Groupos", description:"", image:"assets/img/portfolio/AdminGroups.png"},
+        {filter:"filter-admin", title:"Miembros", description:"", image:"assets/img/portfolio/AdminMembers.png"},
+        {filter:"filter-admin", title:"Reportes", description:"", image:"assets/img/portfolio/AdminReports.png"},
+        {filter:"filter-admin", title:"Usuarios", description:"", image:"assets/img/portfolio/AdminUsers.png"},
+        {filter:"filter-admin", title:"Semanas", description:"", image:"assets/img/portfolio/AdminWeeks.png"}
+      ]
+    },
+    team:{
+      title:"Equipo",
+      description:"",
+      members:[
+        {name:"Fernando Gil", role:"Chief Executive Officer",
+            image:"assets/img/team/team-1.jpg",
+            twitter:"https://twitter.com/LobhoGil", facebook:"",
+            instagram:"https://www.instagram.com/lobhogil/", linkedin:"",
+            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" },
+        {name:"Leslie Vergara", role:"Product Manager",
+            image:"assets/img/team/team-2.jpg",
+            twitter:"https://twitter.com/lezzlie20", facebook:"",
+            instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
+            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" }
+      ]
+    },
+    pricing:{
+      title:"Precios", description:"",
+      plans:[
+        {name:"Gratis", price:"$0", period:"dlls al mes", featured:"", fade:"zoom-in",
+          bullets:[
+            {type:"bx-check", text:"Crea hasta 20 Grupos", included:true},
+            {type:"bx-check", text:"Agrega hasta 250 Miembros", included:true},
+            {type:"bx-check", text:"Asigna hasta 20 Usuarios", included:true},
+            {type:"bx-x", text:"Soporte", included:false}
+          ]
+        },
+        {name:"Limitado", price:"$15", period:"dlls al mes", featured:"featured", fade:"zoom-in",
+          bullets:[
+            {type:"bx-check", text:"Crea hasta 100 Grupos", included:true},
+            {type:"bx-check", text:"Agrega hasta 1500 Miembros", included:true},
+            {type:"bx-check", text:"Asigna hasta 100 Usuarios", included:true},
+            {type:"bx-check", text:"Soporte", included:false}
+          ]
+        },
+        {name:"Ilimimtado", price:"$45", period:"dlls al mes", featured:"", fade:"zoom-in",
+          bullets:[
+            {type:"bx-check", text:"Crea unlimited Grupos", included:true},
+            {type:"bx-check", text:"Agrega unlimited Miembros", included:true},
+            {type:"bx-check", text:"Asigna hasta 200 Usuarios", included:true},
+            {type:"bx-check", text:"Soporte", included:true}
+          ]
+        }
+      ]
+    },
+    contact:{
+      title:"Contacto",
+      description:"",
+      locationBox: {title:"Ubicación", fade:"fade-up", image:"bx-map", colSize:"col-6"},
+      locations:[
+        {address:"San Antonio Texas, USA"},{address:"Xalapa Veracruz, MEX"}
+      ],
+      email:"gil.franfer@gmail.com", emailUs:"Envíanos un Correo",
+      form:{
+        nameLbl:"Tu nombre", emailLbl:"Tu Correo", subjectLbl:"Asunto", messageLbl:"Escribe tu mensaje",
+        sendBtnLbl:"Enviar mensaje", sendingLbl:"Enviando mensaje", sentLbl:"Tu mensaje ha sido enviado. Gracias!",
+        nameInvalid:"Ingresa al menos 3 letras", emailInvalid:"Introduce un correo cálido",
+        subjectInvalid:"Ingresa al menos 3 letras", messageInvalid:"Por favor escríbenos algo"
+      }
+    }
+};
 
 /* ANGULAR */
 let app = angular.module('OkulusSite',[]);
 
+app.controller('LanguageCtrl', function($rootScope) {
+    $rootScope.setLanguage = function(language) {
+      if(language=='es'){
+        $rootScope.i18n = i18n_spanish;
+      }else {
+        $rootScope.i18n = i18n_english;
+      }
+    };
+});
+
 app.run(function($rootScope){
-	$rootScope.i18n = i18n_english;
+  const lang = navigator.language.substring(0, 2);
+  if(lang=='es'){
+    $rootScope.i18n = i18n_spanish;
+    console.log('Espaniol')
+  }else{
+    $rootScope.i18n = i18n_english;
+    console.log('English')
+  }
+
 });
 
 /* EmailJS */

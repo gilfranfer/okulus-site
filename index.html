@@ -47,7 +47,11 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html">{{i18n.menu.app}}<span>.</span></a></h1>
+        <h1 class="text-light" ng-controller="LanguageCtrl">
+          <a href="index.html">{{i18n.menu.app}}<span>.</span></a>
+          <span ng-click="setLanguage('es')">es</span><span>|</span><span ng-click="setLanguage('en')">en</span>
+        </h1>
+
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
