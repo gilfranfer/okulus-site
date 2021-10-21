@@ -131,7 +131,7 @@ const i18n_english = {
         {filter:"filter-admin", title:"Weeks", description:"", image:"assets/img/portfolio/AdminWeeks.png"}
       ]
     },
-    team:{
+    /*team:{
       title:"Team",
       description:"",
       members:[
@@ -146,7 +146,7 @@ const i18n_english = {
             instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
             resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" }
       ]
-    },
+    },*/
     pricing:{
       title:"Pricing", description:"",
       plans:[
