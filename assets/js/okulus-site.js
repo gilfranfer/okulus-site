@@ -135,14 +135,14 @@ const i18n_english = {
       title:"Team",
       description:"",
       members:[
-        {name:"Fernando Gil", role:"Development Lead",
-            image:"assets/img/team/team-1.jpg",
+        {name:"Fernando Gil", role:"Development Lead"
+            /*image:"assets/img/team/team-1.jpg",
             twitter:"https://twitter.com/LobhoGil", facebook:"",
             instagram:"https://www.instagram.com/lobhogil/", linkedin:"",
-            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" },
-        {name:"Leslie Vergara", role:"QA Engineer",
-            image:"assets/img/team/team-2.jpg"
-            /*,twitter:"https://twitter.com/lezzlie20", facebook:"",
+            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" */},
+        {name:"Leslie Vergara", role:"QA Engineer"
+            /*image:"assets/img/team/team-2.jpg",
+            twitter:"https://twitter.com/lezzlie20", facebook:"",
             instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
             resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" */}
       ]
