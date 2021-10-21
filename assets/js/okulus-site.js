@@ -131,7 +131,7 @@ const i18n_english = {
         {filter:"filter-admin", title:"Weeks", description:"", image:"assets/img/portfolio/AdminWeeks.png"}
       ]
     },
-    /*team:{
+    team:{
       title:"Team",
       description:"",
       members:[
@@ -141,12 +141,12 @@ const i18n_english = {
             instagram:"https://www.instagram.com/lobhogil/", linkedin:"",
             resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" },
         {name:"Leslie Vergara", role:"QA Engineer",
-            image:"assets/img/team/team-2.jpg",
-            twitter:"https://twitter.com/lezzlie20", facebook:"",
+            image:"assets/img/team/team-2.jpg"
+            /*,twitter:"https://twitter.com/lezzlie20", facebook:"",
             instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
-            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" }
+            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" */}
       ]
-    },*/
+    },
     pricing:{
       title:"Pricing", description:"",
       plans:[
