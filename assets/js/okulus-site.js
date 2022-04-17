@@ -135,16 +135,16 @@ const i18n_english = {
       title:"Team",
       description:"",
       members:[
-        {name:"Fernando Gil", role:"Development Lead"
-            /*image:"assets/img/team/team-1.jpg",
+        {name:"Fernando Gil", role:"Chief Executive Officer",
+            image:"assets/img/team/team-1.jpg",
             twitter:"https://twitter.com/LobhoGil", facebook:"",
             instagram:"https://www.instagram.com/lobhogil/", linkedin:"",
-            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" */},
-        {name:"Leslie Vergara", role:"QA Engineer"
-            /*image:"assets/img/team/team-2.jpg",
+            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer"}
+        /*,{name:"Leslie Vergara", role:"QA Engineer"
+            image:"assets/img/team/team-2.jpg",
             twitter:"https://twitter.com/lezzlie20", facebook:"",
             instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
-            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" */}
+            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara"} */
       ]
     },
     pricing:{
@@ -229,7 +229,7 @@ const i18n_spanish = {
     },
     features:{
       title:"Características",
-      description:"Okulus es una aplicación web, que provee diferentes caracter+isticas construidas al rededor de los requerimientos comunes de Iglesias que quieren mantener un registro de las reuniones de sus Grupos. La información es capturada por medio de reportes creados por los líderes de cada Grupo, y es utilizada para monitorear el desempeño y crecimiento de cada grupo así como de sus miembros (asistentes). Toda la información recolectada puede ser mostrada en 'Dashboars' (tableros) en tiempo real.",
+      description:"Okulus es una aplicación web, que provee diferentes caracter+isticas construidas al rededor de los requerimientos comunes de Iglesias que quieren mantener un registro de las reuniones de sus Grupos. La información es capturada por medio de reportes creados por los líderes de cada Grupo, y es utilizada para monitorear el desempeño y crecimiento de cada grupo así como de sus miembros (asistentes). Toda la información recolectada puede ser mostrada en 'Dashboards' (tableros) en tiempo real.",
       items:[
         {
           image:{
@@ -255,7 +255,7 @@ const i18n_spanish = {
           text:{
             orderSm:"order-2",orderMd:"order-md-1",fade:"fade-right",
             title:"Dashboard en tiempo real", subtitle:"Mantente al tanto de tus Grupos",
-            description: "Okulus tiene 'Dashboars' (tableros) en tiempo real, disponibles para los usuarios y administradoes, donde pueden revisar toda la informació recolectada por medio de los reportes creados. Haciendo uso de gráficas y tablas, es posbile comprender el crecimiento y desempeño de tus grupos durante periodos específicos de tiempo, muy fácilmente.", bullets:""
+            description: "Okulus tiene 'Dashboards' (tableros) en tiempo real, disponibles para los usuarios y administradoes, donde pueden revisar toda la informació recolectada por medio de los reportes creados. Haciendo uso de gráficas y tablas, es posbile comprender el crecimiento y desempeño de tus grupos durante periodos específicos de tiempo, muy fácilmente.", bullets:""
           }
         },
         {
@@ -333,12 +333,12 @@ const i18n_spanish = {
             image:"assets/img/team/team-1.jpg",
             twitter:"https://twitter.com/LobhoGil", facebook:"",
             instagram:"https://www.instagram.com/lobhogil/", linkedin:"",
-            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" },
-        {name:"Leslie Vergara", role:"Product Manager",
+            resume:"https://kariertabelo.netlify.app/#!/resume/gilfranfer" }
+        /*,{name:"Leslie Vergara", role:"Product Manager",
             image:"assets/img/team/team-2.jpg",
             twitter:"https://twitter.com/lezzlie20", facebook:"",
             instagram:"https://www.instagram.com/lezz.vergara/", linkedin:"",
-            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" }
+            resume:"https://kariertabelo.netlify.app/#!/resume/lessvergara" }*/
       ]
     },
     pricing:{
